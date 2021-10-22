@@ -14,10 +14,9 @@ Chamomile(String size, String thinPillar){
         this.color = color;
         this.beneficialFeatures = beneficialFeatures;
     }
-    public void chamomileBananasInfo() {
+    public void chamomileInfo() {
         System.out.println("Ромашка обычная: " +
-                "\n" +
-                smell +
+                "\nЗапах: " + smell +
                 "\nЦвет: " +
                 color +
                 "\nПолезные свойства: " +
